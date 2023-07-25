@@ -17,6 +17,9 @@
             <span class="col bg-dark text-light rounded mx-3">
                 Author: {{ $project -> authors }}
             </span>
+            <span class="col bg-dark text-light rounded mx-3">
+                Type: {{ $project -> type -> name }}
+            </span>
         </div>
     </div>
 
